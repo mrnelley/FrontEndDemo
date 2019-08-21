@@ -1,13 +1,24 @@
+import * as WebBrowser from 'expo-web-browser';
 import React from 'react';
-import { ExpoConfigView } from '@expo/samples';
+import {
+  Image,
+  Platform,
+  ScrollView,
+  StyleSheet,
+  Text,
+  TextInput,
+  Button,
+  TouchableOpacity,
+  View,
+} from 'react-native';
+
+import SafeAreaView from 'react-native-safe-area-view';
+
 
 export default function SettingsScreen() {
-  /**
-   * Go ahead and delete ExpoConfigView and replace it with your content;
-   * we just wanted to give you a quick view of your config.
-   */
-  return <ExpoConfigView />;
-}
+  return (
+    <Text> Now we are cooking with gas on the Settings page</Text>
+);}
 
 SettingsScreen.navigationOptions = {
   title: 'app.json',
